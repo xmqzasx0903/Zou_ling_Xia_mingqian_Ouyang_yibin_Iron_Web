@@ -1,0 +1,202 @@
+/*basic reset*/
+/*browsers have built in values for elements so we'll reset a few things to zero*/
+@charset "UTF-8";
+/* CSS Document */
+
+div,p,body,header,footer,div,h1,h2,h3{
+	margin:0;
+	padding: 0;
+}
+
+/*html selectors*/
+
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  background-color: #fff;
+}
+
+/*hide elements from browser but show for doc outline*/
+
+.hidden
+{
+	display: none;
+}
+
+.container{
+	
+	margin: 0 auto;
+	background-color: #fff;
+	width:980px;
+	height:1200px;
+	margin-right: 10px;
+	margin-left: 10px;
+
+}
+
+#mainHeader{
+	margin-top:20px;
+	margin-bottom: 30px;  
+
+}
+
+#mainHeader{
+	display: flex;
+  	flex-direction: row;
+  	justify-content: flex-start;
+
+
+}
+
+.pinkarea{
+	display: flex;
+  	flex-direction: row;
+  	justify-content: flex-start;
+
+}
+
+.pinkarea{
+	height: 45px;
+
+}
+
+.headerleft{
+	width: 650px;
+}
+
+.toppink1 {
+	width:290px;
+    height:40px;
+    margin-bottom:20px;
+    color:#e142c1;
+	background-color: #e142c1;
+}
+
+.toppink2 {
+	width: 50px;
+	height: 40px;
+	margin-bottom: 20px;
+	margin-left:310px;
+	margin-right: 610px;
+	color:#e142c1;
+	background-color: #e142c1;
+}
+
+.topgreen{
+	width: 650px;
+	height: 45px;
+	background-color:#67aa47;
+	color: #67aa47;
+	margin-top: 30px;
+}
+
+/*.headerright{
+	width: 250px;
+	height: 100px;
+	color:#f6ec9b;
+	background-color::#f6ec9b; 
+	margin-top: 20px;
+	margin-right:20px;
+}
+
+
+.maintop2{
+	height:300px;
+	margin-left:270px;
+	background-color:#3a0228;
+	color:#3a0228;
+	margin-top:150px;
+
+}*/
+
+.maintop{
+	display: flex;
+  	flex-direction: row;
+  	justify-content: flex-start;
+  	margin-top: 30px;
+  	margin-left: 10px;
+  	margin-right: 10px
+}
+
+.maintop1{
+	width:200px;
+	height: 200px;
+	color:#090d42;
+	background-color:#090d42;
+	margin-bottom: 150px;
+	margin-right: 60px; 
+
+}
+
+.maintopP{
+	display: flex;
+  	flex-direction: row;
+  	justify-content: flex-start;
+  	margin-bottom:30px;
+}
+.maintopP1{
+	color:#e0b1cf;
+	background-color:#e0b1cf ;
+	width:80px; 
+	height:70px: 
+	margin-right:10px;
+
+}
+
+
+
+.maintop2{
+	color:#3a0228;
+	background-color:#3a0228;
+	width: 700px;
+	height: 300px;
+
+}
+
+.middle{
+	width: 960px;
+	height: 210px;
+	color: #97cfaf;
+	background-color: #97cfaf;
+	margin-top:45px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.bottom{
+	display: flex;
+  	flex-direction: row;
+  	justify-content: flex-start;
+  	margin-bottom: 45px;
+  	margin-top: 20px
+  }
+
+  .bottomG{
+  	width: 600px;
+  	height: 400px;
+  	color: #0a852d;
+  	background-color: #0a852d;
+  	margin-left: 10px;
+  }
+
+  .bottomB{
+  	width: 300px;
+  	height: 400px;
+  	color:#080b52;
+  	background-color:#080b52; 
+  	margin-left:60px;
+  }
+
+  #mainFooter{
+  	width: 980px;
+  	height: 45px;
+  	color: #fe7f22;
+  	background-color: #fe7f22;
+  	margin-right: 0px;
+  	margin-left: 0px;
+  	margin-top: 45px;
+
+
+  }
