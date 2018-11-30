@@ -38,16 +38,12 @@ body{
 #mainHeader{
 	margin-top:20px;
 	margin-bottom: 30px;  
-
-}
-
-#mainHeader{
 	display: flex;
   	flex-direction: row;
-  	justify-content: flex-start;
-
-
+  
 }
+
+
 
 .pinkarea{
 	display: flex;
@@ -61,9 +57,7 @@ body{
 
 }
 
-.headerleft{
-	width: 650px;
-}
+
 
 .toppink1 {
 	width:290px;
@@ -91,17 +85,19 @@ body{
 	margin-top: 30px;
 }
 
-/*.headerright{
+.headerleft{
+	margin-left: 10px;
+}
+.headerright{
 	width: 250px;
 	height: 100px;
-	color:#f6ec9b;
-	background-color::#f6ec9b; 
-	margin-top: 20px;
-	margin-right:20px;
+	background-color:#f6ec9b; 
+	margin-top: -100px;
+	margin-left: 710px;
 }
 
 
-.maintop2{
+/*.maintop2{
 	height:300px;
 	margin-left:270px;
 	background-color:#3a0228;
@@ -124,7 +120,7 @@ body{
 	height: 200px;
 	color:#090d42;
 	background-color:#090d42;
-	margin-bottom: 150px;
+	margin-bottom: 100px;
 	margin-right: 60px; 
 
 }
@@ -132,18 +128,22 @@ body{
 .maintopP{
 	display: flex;
   	flex-direction: row;
-  	justify-content: flex-start;
-  	margin-bottom:30px;
+  	margin-top: 30px;
 }
 .maintopP1{
-	color:#e0b1cf;
 	background-color:#e0b1cf ;
 	width:80px; 
-	height:70px: 
-	margin-right:10px;
+	height:70px;
+	margin-top: 180px;
 
 }
-
+.maintopP2{
+	background-color:#e0b1cf ;
+	width:80px; 
+	height:70px;
+	margin-top: 180px;
+	margin-left: 40px;
+}
 
 
 .maintop2{
@@ -159,7 +159,7 @@ body{
 	height: 210px;
 	color: #97cfaf;
 	background-color: #97cfaf;
-	margin-top:45px;
+	margin-top:30px;
 	margin-left: 10px;
 	margin-right: 10px;
 }
